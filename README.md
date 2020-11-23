@@ -10,14 +10,14 @@ Caution! A full thermostat replacement requires additional components:
 - A logic unit to control the system, a.k.a switch on or off the relay according
   the desired temperature and the actual temperature of the thermometer.
 
-Because my personal requirements, I built this MQTT Switch using a Wemo D1 Mini
+Because of my personal requirements, I built this MQTT Switch using a Wemo D1 Mini
 as main board with the relay shield which provides me an easy hardware
 environment with an ESP8266 board and a relay, configurable with Arduino IDE.
 
 Of course, you can adapt my hardware choices but notice that, if you do that,
 software changes may apply as well.
 
-The following steps will guide you using my specific stack and I will consider
+The following steps will guide you to use my specific stack and I will consider
 that the Arduino IDE is familiar to you.
 
 This project uses the following libraries:
